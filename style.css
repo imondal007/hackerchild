@@ -28,3 +28,9 @@
 .Article__topMeta {
     text-align: left;
 }
+
+.Article__featured img {
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+}
