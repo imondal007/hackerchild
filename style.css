@@ -1,0 +1,30 @@
+/*
+ Theme Name:     Hacker Child
+ Theme URI:      http://www.imranmondal.com
+ Description:    Hacker Child Theme
+ Author:         Imran Mondal
+ Author URI:     http://www.imranmondal.com
+ Template:       hacker
+ Version:        1.0.0
+*/
+
+
+@import url("../hacker/style.css");
+
+.Article {
+    padding: 3rem 0;
+}
+
+.Article:not(:first-child):before {
+  width: 0;
+  height: 0;
+}
+
+.Article__title {
+    text-align: left;
+    padding: 0;
+}
+
+.Article__topMeta {
+    text-align: left;
+}
